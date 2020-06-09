@@ -1,0 +1,27 @@
+<div class="bg-img">
+    <div class="centereddiv">
+        <form action="/action_page.php">
+            <div class="d-flex justify-content-center h-100">
+                <div class="card" mt-5>
+                    <div class="card-header">
+                        <h3>Payment Option</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="input-group form-group">
+                                <label class="mode">Total Bill Of Yours Is: <i class="fa fa-rupee"></i></label>
+                                <input type="text" class="form-control" placeholder="">
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-outline-success float-right " (click)="cash()"> Cash On Delivery </button>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-outline-primary float-left " (click)="cardPayment()"> Online Payment </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
